@@ -1,0 +1,91 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ФОРМЫ</title>
+</head>
+<h1> ФОРМЫ</h1>
+<body>
+    <form>
+        <div>
+            <label for="text_id">Введите тест</label>
+            <input type="text" id="text_id" value="Текст по умолчанию">
+        </div>
+            <label for="email_id">Введите Email</label>
+            <input type="email" id="email_id" value="@gmail.com">
+        </div>
+        <div>
+            <label for="password_id">Введите Пароль</label>
+            <input type="password" id="password_id" placeholder="Введите пароль">
+        </div>
+        <div>
+            <label for="number_id">Введите число</label>
+            <input type="number" name="" id="number_id" min="-2" max="10">
+        </div>
+        
+       <div>
+            <label for="tel_id">Введте номер телефона</label>
+            <input type="tel" id="tel_id">
+       </div>
+       <div>
+            <label for="range_id">Range</label>
+            <input type="range" id="range_id" 
+                min="0" max="10" step="1">
+        </div>
+        <div>
+            <label for="date_id">Date</label>
+            <input type="date" id="date_id">
+        </div>
+            <div>
+                <label for="color_id">Color</label>
+                <input type="color" id="color_id">
+        </div>
+            <div>
+                        <label for="datetime_id">Date</label>
+                        <input type="datetime" id="datetime_id">
+            </div>
+            <div>
+                <label for="messagr_id"></label> Блочный текст для сообщений
+                <br>
+                <textarea 
+                    id="messagr_id" cols="30" rows="10">
+
+                </textarea>
+            </div>
+            <div>
+                <label for="sex">   Пол</label>
+                <select  id="sex">
+                    <option value="male">Мужчина</option>
+                    <option value="female" selected>Женщина</option>
+                    <option value="ofher">Другое</option>
+                    
+                </select>                
+            </div>
+            <div>
+                <label Количесво работ></label>
+                    <input type="radio" name="work" >1
+                    <input type="radio" name="work" >2
+                    <input type="radio" name="work" >5
+                    <input type="radio" name="work" >10+                  
+                
+            </div>
+                <label лЮБИМАЯ ЕДА></label>
+                    <input type="checkbox" name="food" >Картошка
+                    <input type="checkbox" name="food" >Хлеб
+                    <input type="checkbox" name="food" >Рыбa
+                    <input type="checkbox" name="food" >Мясо                 
+                        
+            </div>
+            <br>
+            <div>
+                    <input type="button" value="Menu">
+                    <input type="submit" value="Отправить">
+                    <button type="submit"> Отправить Forms</button>
+            </div>
+                <div>
+                    <button>Отправить!</button>
+                </div>
+        </form>
+</body>
+</html>
